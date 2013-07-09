@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b><%= Book.human_attribute_name(:title) %>:</b>
+  <%= @book.title %>
+</p>
+
+<p>
+  <b><%= Book.human_attribute_name(:number_of_pages) %>:</b>
+  <%= number_with_delimiter(@book.number_of_pages) %>
+</p>
+
+<p>
+  <b><%= Book.human_attribute_name(:price) %>:</b>
+  <%= number_to_currency(@book.price) %>
+</p>
+
+
+<%= link_to I18n.t('views.edit'), edit_book_path(@book) %> |
+<%= link_to I18n.t('views.back'), books_path %>

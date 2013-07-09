@@ -1,0 +1,21 @@
+# ruby encoding: utf-8
+
+de:
+  views:
+    show: Anzeigen
+    edit: Editieren
+    destroy: Löschen
+    are_you_sure: Sind Sie sicher?
+    back: Zurück
+    edit: Editieren
+    book:
+      index:
+        title: Bücherliste
+        new: Neues Buch
+      edit:
+        title: Buch editieren
+      new:
+        title: Neues Buch
+      flash_messages:
+        book_was_successfully_created: 'Das Buch wurde erfolgreich angelegt.'
+        book_was_successfully_updated: 'Das Buch wurde erfolgreich aktualisiert.'
